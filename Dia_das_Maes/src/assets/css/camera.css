@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+video#cam{
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /*Da o efeito de sombra*/
+}

@@ -1,0 +1,24 @@
+div#reconhecido{
+    position: absolute;
+    top: 12%;
+    left: 41%;
+    color: #148810;
+    font: normal 30pt Arial;
+    font-weight: 600;
+}
+
+div#analise{
+    position: absolute;
+    top: 30%;
+    left: 73%;
+    color: #fff;
+    font: normal 25pt Arial;
+}
+
+div#bemvindo{
+    position: absolute;
+    top: 37%;
+    left: 75%;
+    color: #ff7171;
+    font: normal 23pt Arial;
+}

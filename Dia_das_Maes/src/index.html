@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dia das mães</title>
+    <link rel="stylesheet" href="./assets/css/camera.css">
+    <link rel="stylesheet" href="./assets/css/botao.css">
+    <link rel="stylesheet" href="./assets/css/analisando.css">
+    <link rel="stylesheet" href="./assets/css/radar.css">
+    <link rel="stylesheet" href="./assets/css/textos.css">
+    <link rel="stylesheet" href="./assets/css/botaoMensagem.css">
+</head>
+
+<body>
+    <header id="titulo">
+        <ul class="analisando">
+            <li>A</li>
+            <li>N</li>
+            <li>A</li>
+            <li>L</li>
+            <li>I</li>
+            <li>S</li>
+            <li>A</li>
+            <li>N</li>
+            <li>D</li>
+            <li>O</li>
+        </ul>
+    </header>
+
+    <div class="pulse" id="botao">
+        CLIQUE
+    </div>
+    
+        <video
+            autoplay
+            playsinline
+            id="cam"
+            width="545"
+            height="410"
+            muted >
+        </video>
+
+        <ul class="radar" id="radar">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div id="localizacao"></div>
+        <div id="reconhecido"></div>
+        <div id="analise"></div>
+        <div id="bemvindo"></div>
+
+        <div class="pulseMensagem" id="botaoMensagem">
+            Mensagem
+        </div>
+        
+    <script src="./assets/lib/face-api/face-api.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
