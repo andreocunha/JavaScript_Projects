@@ -1,0 +1,8 @@
+.quadro4 {
+    position: fixed;
+    margin-top: 500px;
+    margin-left: 65%;
+    width: 215px;
+    border: 8px solid #035a66;
+    border-radius: 30px;
+}
