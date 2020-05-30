@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+div.titulo {
+    height: 0;
+    position: absolute }
+div.titulo h1 {
+    margin: 0;
+    background: blue;
+    color: cornsilk;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.titulo p {
+    margin: 0;
+    position: fixed;
+    top: 10%;
+    left: 1%;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+div.titulo h3 {
+    position: fixed;
+    right: 2%;
+    top: 90%;
+}
